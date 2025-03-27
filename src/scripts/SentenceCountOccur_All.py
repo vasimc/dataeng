@@ -55,10 +55,10 @@ sentence = "Try new coding on new coding platform"
 counter = WordCounter(sentence)
 
 # Uncomment one of the following lines to test a specific approach:
-# result = counter.count_with_loop()
+result = counter.count_with_loop()
 # result = counter.count_with_set()
 # result = counter.count_with_defaultdict()
-result = counter.count_with_reduce()
+# result = counter.count_with_reduce()
 # result = counter.count_with_map_filter()
 
 # Print the result
