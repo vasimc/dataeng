@@ -1,10 +1,3 @@
-"""
-1. Given a sentence, count occurrence of each word. 
-Sample - 
-Input : Try new coding on new coding platform 
-Expected output : { Try : 1, new: 2, coding : 2, on : 1, platform : 1 }
-"""
-
 class WordCounter:
     """
     A class to count word occurrences in a sentence using different approaches.
@@ -62,11 +55,11 @@ sentence = "Try new coding on new coding platform"
 counter = WordCounter(sentence)
 
 # Uncomment one of the following lines to test a specific approach:
-result = counter.count_with_loop()
+# result = counter.count_with_loop()
 # result = counter.count_with_set()
 # result = counter.count_with_defaultdict()
 # result = counter.count_with_reduce()
 # result = counter.count_with_map_filter()
 
 # Print the result
-print(result)  # Uncomment to see the output
+# print(result)  # Uncomment to see the output
